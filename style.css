@@ -2,16 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=League Spartan');
 /* Navbar element */
 
-.tincan {
-    width: auto;
-    float: left;
-    margin-right: 20px;
-    padding-top: 10px;
-}
-
 .logoSize {
     height: 180px;
 }
+
+.tincan {
+    width: auto;
+    float: left;
+}
+
 
 .tincanStyling {
     height: 120px;
@@ -24,7 +23,10 @@
 .about-heading {
     justify-content: center;
     font-family: 'League Spartan';
-
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 
@@ -36,9 +38,13 @@
     text-align: center;
     margin: 20px;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+
+.btn {
+    text-align: center;
+    justify-content: center;
 }
 
 /* Card elements */
