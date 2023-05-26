@@ -2,6 +2,19 @@
 @import url('https://fonts.googleapis.com/css?family=League Spartan');
 /* Navbar element */
 
+.navbar {
+    width: 100%;
+    height: 120px;
+    background-color: #f8f9fa;
+    margin: 0;
+}
+
+.position-fixed {
+    top: 0;
+    bottom: 0;
+  }
+  
+
 .linksNavigation {
     margin-top: 40px;
 }
