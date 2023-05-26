@@ -2,22 +2,27 @@
 @import url('https://fonts.googleapis.com/css?family=League Spartan');
 /* Navbar element */
 
-.logoSize {
-    height: 180px;
+.linksNavigation {
+    margin-top: 40px;
 }
+
+.navbar-nav .nav-link {
+padding-right: 1rem;
+padding-left: 1rem;
+}
+
+
 
 .tincan {
     width: auto;
     float: left;
-}
-
-
-.tincanStyling {
     height: 120px;
-    transform: rotate(270deg);
-
 }
 
+/* .top-left-image {
+    top: 0;
+    left: 0;
+} */
 /* Text */
 
 .about-heading {
