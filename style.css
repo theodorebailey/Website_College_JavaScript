@@ -9,14 +9,10 @@
     margin: 0;
 }
 
-.position-fixed {
-    top: 0;
-    bottom: 0;
-  }
-  
 
 .linksNavigation {
     margin-top: 40px;
+    font-family: 'League Spartan';
 }
 
 .navbar-nav .nav-link {
@@ -24,19 +20,14 @@ padding-right: 1rem;
 padding-left: 1rem;
 }
 
-
-
 .tincan {
     width: auto;
     float: left;
     height: 120px;
 }
 
-/* .top-left-image {
-    top: 0;
-    left: 0;
-} */
-/* Text */
+
+/* About section */
 
 .about-heading {
     justify-content: center;
@@ -70,9 +61,16 @@ padding-left: 1rem;
 .card {
     height: 100%;
 } 
+
+.card:hover {
+    transform: scale(1.1);
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+    z-index: 1;
+}
+
 .card-img-top {
     object-fit: cover;
-    height: 200px; 
+    height: 200px;
 }
 
 /* Footer element */
@@ -94,7 +92,7 @@ footer {
     text-decoration: none;
 }
 
-.social-media a:hover, .linksFooter:hover {
+.social-media a:hover, .links:hover {
     transform: scale(1.2);
     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
     color: #007bff;

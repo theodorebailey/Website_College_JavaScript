@@ -5,44 +5,40 @@
   <!-- league spartan font -->
   <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'>
   <link rel="stylesheet" href="style.css">
+
+  <!-- Mine -->
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <!--  -->
+  
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <div class="col-auto">
-        <img class="tincan logoSize image-container top-left-image" src="./tincanDevelopsSized.png" alt="Logo">
+    <div class="container">
+      <div class="row">
+        <div class="col-auto">
+          <a class="navbar-brand"><img class="tincan logoSize image-container top-left-image" src="./tincanDevelopsSized.png" alt="Logo"></a>
+        </div>
+        <div class="col-auto">
+          <a class="navbar-brand"><img class="tincan" src="./vector.svg" alt="Logo"></a>
+        </div>
       </div>
-      <div class="col-auto">
-        <img class="tincan" src="./vector.svg" alt="Logo">
-      </div>
-    
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span> -->
-      <div class="collapse navbar-collapse linksNavigation" id="navbarNav">
+      <div class="linksNavigation" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link linksFooter" href="#">Home</a>
+            <a class="nav-link links" href="index.html">Home</a>
           </li>
-          <li class="nav-item linksFooter">
+          <li class="nav-item links">
             <a class="nav-link" href="resume.html">About</a>
           </li>
-          <li class="nav-item linksFooter">
+          <li class="nav-item links">
             <a class="nav-link" href="services.html">Services</a>
           </li>
         </ul>
-      </div>
-    </div>
-  </nav>
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <div class="container-fluid">
-      <!-- <img class="tincan logoSize" src="./tincanDevelopers.png" alt="Logo">
-      <img class="tincan tincanStyling" src="./vector.svg" alt="Logo"> -->
-      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span> -->
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
       </div>
     </div>
   </nav>
@@ -61,19 +57,7 @@
     </div>
   </div>
 
-  <hr class="my-1 border-white bg-white">
-
-  <div class="container">
-    <div class="row">
-      <div class="justify-content-center col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
-          <iframe class="videoLink embed-responsive embed-responsive-16by9" width="560" height="315" src="https://www.youtube.com/embed/68y6y8sN4bY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div >
-      </div>
-  </div>
-
-  <hr class="my-5 border-white bg-white">
-  
-  <div class="container">
+  <div class="container card-elements">
     <div class="row">
       <div class="col-lg-4">
         <div class="card cardImageSize">
@@ -86,7 +70,45 @@
         </div>
       </div>
       <div class="col-lg-4">
+        <div class="card card-middle cardImageSize">
+          <img src="./210408161034-02-cave-art-chauvet-restricted.jpg" class="card-img-top" alt="Image 2">
+          <div class="card-body">
+            <h5 class="card-title">Smithsonian</h5>
+            <p class="card-text">Tucked into rolling countryside from southwestern France to Spain's northern coast lies a treasure trove of artifacts and art</p>
+            <a href="https://www.smithsonianjourneys.org/tours/prehistoric-caves/itinerary/" target="_blank" class="btn btn-primary">Prehistoric Caves of France and Spain</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
         <div class="card cardImageSize">
+          <img src="./caveart.jpg" class="card-img-top" alt="Image 3">
+          <div class="card-body">
+            <h5 class="card-title">Smithsonian</h5>
+            <p class="card-text">The discovery in a remote part of Indonesia has scholars rethinking the origins of art—and of humanity</p>
+            <a href="https://www.smithsonianmag.com/history/journey-oldest-cave-paintings-world-180957685/" target="_blank" class="btn btn-primary">A Journey to the Oldest Cave Paintings</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+  <hr class="my-5 border-white bg-white">
+  
+  <div class="container card-elements">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card cardImageSize">
+          <img src="./_95243010_cavedavidstanley copy.jpg" class="card-img-top" alt="Image 1">
+          <div class="card-body">
+            <h5 class="card-title">Smithsonian</h5>
+            <p class="card-text">A high-tech recreation of the immortal artworks shines a new light on the dawn of human imagination</p>
+            <a href="https://www.smithsonianmag.com/history/france-chauvet-cave-makes-grand-debut-180954582/" target="_blank" class="btn btn-primary">The Beauty of France's Chauvet Cave</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card card-middle cardImageSize">
           <img src="./210408161034-02-cave-art-chauvet-restricted.jpg" class="card-img-top" alt="Image 2">
           <div class="card-body">
             <h5 class="card-title">Smithsonian</h5>
@@ -111,11 +133,11 @@
   <footer class="bg-white">
     <div class="container-footer">
       <ul class="social-media">
-        <li class="linksFooter">
+        <li class="links">
           <a href="https://github.com/theodorebailey" target="_blank">GitHub <i class="logoFooter fab fa-github"></i>
           </a>
         </li>
-        <li class="linksFooter">
+        <li class="links">
           <a href="https://www.linkedin.com/in/theodore-bailey-software-developer/" target="_blank">LinkedIn <i class="logoFooter fab fa-linkedin-in"></i>
           </a>
         </li>
@@ -123,10 +145,5 @@
     </div>
   </footer>
 
-
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
