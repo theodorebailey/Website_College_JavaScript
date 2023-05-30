@@ -10,24 +10,23 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="container">
-      <div class="col-auto">
-        <img class="tincan logoSize image-container top-left-image" src="./tincanDevelopsSized.png" alt="Logo">
+      <div class="row">
+        <div class="col-auto">
+          <a class="navbar-brand"><img class="tincan logoSize image-container top-left-image" src="./tincanDevelopsSized.png" alt="Logo"></a>
+        </div>
+        <div class="col-auto">
+          <a class="navbar-brand"><img class="tincan" src="./vector.svg" alt="Logo"></a>
+        </div>
       </div>
-      <div class="col-auto">
-        <img class="tincan" src="./vector.svg" alt="Logo">
-      </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse linksNavigation" id="navbarNav">
+      <div class="linksNavigation" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link linksFooter" href="index.html">Home</a>
+            <a class="nav-link links" href="index.html">Home</a>
           </li>
-          <li class="nav-item active linksFooter">
+          <li class="nav-item active links">
             <a class="nav-link" href="resume.html">About</a>
           </li>
-          <li class="nav-item linksFooter">
+          <li class="nav-item links">
             <a class="nav-link" href="services.html">Services</a>
           </li>
         </ul>
@@ -35,7 +34,7 @@
     </div>
   </nav>
   <br>
-  <object data="path-to-your-cv.pdf" type="application/pdf">
+  <object class="mt-5" data="path-to-your-cv.pdf" type="application/pdf">
   <embed src="Theodore_A_W_Bailey_CV_Resume.pdf" type="application/pdf" width="100%" height="600px">
   <footer class="bg-white">
     <div class="container-footer">
