@@ -7,9 +7,8 @@
   <link rel="stylesheet" href="style.css">
 
   <!-- Mine -->
-  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
   <!--  -->
   
@@ -24,10 +23,10 @@
     <div class="container">
       <div class="row">
         <div class="col-auto">
-          <a class="navbar-brand"><img class="tincan logoSize image-container top-left-image" src="./tincanDevelopsSized.png" alt="Logo"></a>
+          <a onclick="logoSpin()" class="navbar-brand"><img id="tincanLogo" class="tincan logoSize image-container top-left-image" src="./tincanDevelopsSized.png" alt="Logo"></a>
         </div>
         <div class="col-auto">
-          <a class="navbar-brand"><img class="tincan" src="./vector.svg" alt="Logo"></a>
+          <a class="navbar-brand"><img id="tincanDate" class="tincan" src="./vector.svg" alt="Logo"></a>
         </div>
       </div>
       <div class="linksNavigation" id="navbarNav">
@@ -38,7 +37,7 @@
           <li class="nav-item links">
             <a class="nav-link" href="resume.html">About</a>
           </li>
-          <li class="nav-item active links">
+          <li class="nav-ite active links">
             <a class="nav-link" href="services.html">Services</a>
           </li>
         </ul>

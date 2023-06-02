@@ -2,10 +2,7 @@
 const tincanDate = document.getElementById("tincanDate");
 // select logo ID element navbar
 const logo = document.getElementById('tincanLogo');
-// Select id element
-const textElement = document.getElementById("company-about");
-// Select CEO paragraph
-const paraCEO = document.getElementById("para-ceo")
+
 
 tincanDate.addEventListener('click', () => {
     const currentDate = new Date().toDateString();
@@ -13,7 +10,7 @@ tincanDate.addEventListener('click', () => {
 });
 
 function logoSpin() {
-  // set CSS styling property to rotate 360
+  // set CSS styling property to rotate 360 to constant logo value
   logo.style.transform = 'rotate(360deg)';
 }
 
