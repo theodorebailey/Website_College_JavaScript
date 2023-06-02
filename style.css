@@ -87,39 +87,59 @@
     justify-content: center;
     padding: 10px;
 } 
+
+/* on hover effects for card elements */
 .card:hover {
+    /* enlarge by 10% */
     transform: scale(1.1);
+    /* transition state in and out placed on both: color + transform */
     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+    /* not in currently in effect */
     z-index: 1;
 }
 
 .card-img-top {
+    /* sets image scaling to container */
     object-fit: cover;
-    height: 200px;
+    /* set card image sizing */
+    height: 500px;
 }
 
 /* Footer element */
 
 footer {
+    /* set background colour to footer element */
     background-color: #f5f5f5;
+    /* set padding to footer top and bottom */
     padding: 50px 0;
+    /* align text items centrally */
     text-align: center;
 }
 
+/* set list items in social media container */
 .social-media li {
+    /* display items inline together in a block */
     display: inline-block;
+    /* set margin to create space for list items */
     margin-right: 50px;
 }
 
 .social-media a {
+    /* set text colour */
     color: #555252;
+    /* set font size */
     font-size: 20px;
+    /* remove decoration on items - in this case auto: underline */
     text-decoration: none;
 }
 
+/* set hover effects for social media icons */
 .social-media a:hover, .links:hover {
+    /* enlarge by 20% */
     transform: scale(1.2);
+    /* over 0.3 seconds color and transform size */
     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    /* change colour to blue on hover */
     color: #007bff;
 }
 
