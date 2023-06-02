@@ -1,8 +1,12 @@
+/* add font awesome styling */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+/* add league spartan font to site */
 @import url('https://fonts.googleapis.com/css?family=League Spartan');
 
 * {
+    /* removes ability to highlight text */
     user-select: none;
+    /* set site font to league spartan */
     font-family: 'League Spartan';
 }
 /* Navbar element */
