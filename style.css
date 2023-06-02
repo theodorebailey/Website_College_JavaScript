@@ -19,14 +19,16 @@
 }
 
 .tincan {
+    /* set width to auto */
     width: auto;
-    float: left;
+    /* height equal to navbar */
     height: 120px;
 }
 
 #tincanLogo {
-    background-size: cover;
+    /* set transition to 1 second */
     transition: transform 1s ease;
+    /* set current rotation angle to 0 */
     transform: rotate(0deg);
 }
 
@@ -34,8 +36,9 @@
 /* About section */
 
 .about-heading {
+    /* center content  */
     justify-content: center;
-    font-family: 'League Spartan';
+    /* set font size */
     font-size: 36px;
     font-weight: bold;
     color: #333333;
@@ -45,11 +48,14 @@
 
 .about-paragraph {
     color: #555252;
+    /* set font size half heading */
     font-size: 18px;
-    font-family: 'League Spartan';
     line-height: 1.5;
+    /* align text center page */
     text-align: center;
+    /* set margin */
     margin: 20px;
+    /* set padding to item */
     padding: 10px;
     /* stop highlighting */
 }
@@ -57,33 +63,30 @@
 
 /* Buttons */
 
-.btn {
-    text-align: center;
-    justify-content: center;
+.card div a {
+    /* set width to cover width of container */
+    width: 100%;
+    /* set background colour of button to green */
+    background-color: #4CAF50;
+    color: white;
+    /* remove border styling */
+    border: none;
+    /* set border radius to widen */
+    border-radius: 100px;
+    /* change cursor style on select */
+    cursor: pointer;
 }
+
 
 /* Card elements */
 
 .card {
+    /* set card height to 100% */
     height: 100%;
     display: flex;
     justify-content: center;
     padding: 10px;
 } 
-
-.card div a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 100px;
-    cursor: pointer;
-
-}
-
 .card:hover {
     transform: scale(1.1);
     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; 
