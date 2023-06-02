@@ -3,9 +3,11 @@ const tincanDate = document.getElementById("tincanDate");
 // select logo ID element navbar
 const logo = document.getElementById('tincanLogo');
 
-
+// tincanDate ID selected, addEventlistener for click event
 tincanDate.addEventListener('click', () => {
-    const currentDate = new Date().toDateString();
+  // create a variable to store current date
+    let currentDate = new Date().toDateString();
+    // alert current date to website when function executes
     alert(currentDate);
 });
 
@@ -27,15 +29,16 @@ function changeColor (ele) {
 }
 
 function getRandomColor() {
-  // hexadecimal color code
+  // relevant hexadecimal characters stored in string acting like array
   const letters = '0123456789ABCDEF';
-  // create color, instantiated with hash key
+  // create color variable, instantiated with hash key
   let color = '#';
-  // create 6 additional random colour numerals
+  // create 6 additional random colour numerals from letters string acting like array
   for (let i = 0; i < 6; i++) {
-    // add to colour letter array select random 
+    // add to colour letter array select random, create a random number and using Math.floor round down to nearest numeral 
+    // * 16 to get whole number which is number of Hexidecimal characters
     color += letters[Math.floor(Math.random() * 16)];
   }
-  // return hexidecimal value
+  // return hexidecimal value stored in color variable
   return color;
 }

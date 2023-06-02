@@ -8,21 +8,14 @@
 /* Navbar element */
 
 .navbar {
+    /* navbar covers 100% of screen */
     width: 100%;
+    /* height constant 120px */
     height: 120px;
+    /* set background colour to white */
     background-color: #f8f9fa;
+    /* 0 margin to fit to screen size */
     margin: 0;
-}
-
-
-.linksNavigation {
-    margin-top: 40px;
-    font-family: 'League Spartan';
-}
-
-.navbar-nav .nav-link {
-padding-right: 1rem;
-padding-left: 1rem;
 }
 
 .tincan {

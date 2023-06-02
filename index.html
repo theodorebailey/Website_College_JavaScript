@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <!-- league spartan font -->
   <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'>
+  <!-- style sheet -->
   <link rel="stylesheet" href="style.css">
+  <!-- vector icon navbar -->
   <link rel="icon" href="./vector.svg" type="image/gif" sizes="16x16" style="color: white;">
 </head>
 <body>
+  <!-- navbar bootstrap, large expanded light colour with background colour white -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <!-- container class for navbar -->
     <div class="container">
+      <!-- row nested in container -->
       <div class="row">
+        <!-- auto column sizing division element -->
         <div class="col-auto">
+          <!-- hyperlink tag with image nested containing tincan logo created online in "canva" -->
           <a onclick="logoSpin()" class="navbar-brand"><img id="tincanLogo" class="tincan logoSize image-container top-left-image" src="./tincanDevelopsSized.png" alt="Logo"></a>
         </div>
+        <!-- auto column sizing -->
         <div class="col-auto">
+          <!-- hyperlink with class nav-brand which does nothing -->
           <a class="navbar-brand"><img id="tincanDate" class="tincan" src="./vector.svg" alt="Logo"></a>
         </div>
       </div>
